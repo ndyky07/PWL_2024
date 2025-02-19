@@ -11,5 +11,5 @@ class WelcomeController extends Controller
 	}
 }
 
-Route::get(‘/hello’, [WelcomeController::class,’hello’]);
+Route::get('/hello', [WelcomeController::class,'hello']);
 
